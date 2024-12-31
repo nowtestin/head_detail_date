@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="cb5927edc3b65a104f6efc0ed4013170" extends="task" label="head" max_length="40" name="x_846092_detail_su_head" type="collection">
+        <element label="V sinsei date" max_length="40" name="v_sinsei_date" type="glide_date"/>
+    </element>
+</database>
