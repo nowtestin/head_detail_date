@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b0ec3329c33a5a104f6efc0ed4013130</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>subnum_saiban</sys_name>
         <sys_overrides/>
         <sys_package display_value="detail subnum add" source="x_846092_detail_su">af19efadc3b65a104f6efc0ed4013116</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="detail subnum add">af19efadc3b65a104f6efc0ed4013116</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_b0ec3329c33a5a104f6efc0ed4013130</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-31 03:49:26</sys_updated_on>
+        <sys_updated_on>2024-12-31 11:08:05</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -91,10 +91,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-31 03:47:17</sys_created_on>
         <sys_id>3cec3329c33a5a104f6efc0ed4013153</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="detail subnum add">af19efadc3b65a104f6efc0ed4013116</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-31 03:49:22</sys_updated_on>
+        <sys_updated_on>2024-12-31 11:07:58</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3cec3329c33a5a104f6efc0ed4013153"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -119,14 +119,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-31 03:47:17</sys_created_on>
         <sys_id>89ec3329c33a5a104f6efc0ed4013164</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-31 03:49:22</sys_updated_on>
+        <sys_updated_on>2024-12-31 11:07:58</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
 // ... code ...&#13;
 var task_num = inputs.task_num;&#13;
 var gr = new GlideRecord('x_846092_detail_su_detail');/*明細テーブル*/&#13;
-gr.addQuery('Number', task_num);&#13;
+gr.addQuery('number', task_num);&#13;
 gr.orderBy('sys_created_on');&#13;
 gr.query();&#13;
 let count = 0;    &#13;
@@ -365,7 +365,7 @@ while (gr.next()) {&#13;
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>49ec3329c33a5a104f6efc0ed4013167</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -373,7 +373,7 @@ while (gr.next()) {&#13;
         <sys_scope display_value="detail subnum add">af19efadc3b65a104f6efc0ed4013116</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-31 03:49:25</sys_updated_on>
+        <sys_updated_on>2024-12-31 11:08:04</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
@@ -528,14 +528,14 @@ while (gr.next()) {&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-31 03:47:17</sys_created_on>
         <sys_id>c9ec3329c33a5a104f6efc0ed401316e</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="detail subnum add">af19efadc3b65a104f6efc0ed4013116</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-31 03:49:25</sys_updated_on>
+        <sys_updated_on>2024-12-31 11:08:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -639,17 +639,17 @@ while (gr.next()) {&#13;
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="subnum_saiban">b0ec3329c33a5a104f6efc0ed4013130</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"786d3f29c33a5a104f6efc0ed401311c","name":"plan","plan_signature":null}}</plan>
-        <snapshot>686dfb29c33a5a104f6efc0ed40131d8</snapshot>
+        <snapshot>06c1ad35c3329a104f6efc0ed4013174</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-31 03:49:27</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>786d3f29c33a5a104f6efc0ed401311c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-31 03:49:27</sys_updated_on>
+        <sys_updated_on>2024-12-31 11:08:06</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -739,10 +739,10 @@ while (gr.next()) {&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-31 03:49:26</sys_created_on>
         <sys_id>a46dfb29c33a5a104f6efc0ed40131b7</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="detail subnum add">af19efadc3b65a104f6efc0ed4013116</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-31 03:49:26</sys_updated_on>
+        <sys_updated_on>2024-12-31 11:08:05</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a46dfb29c33a5a104f6efc0ed40131b7"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -767,14 +767,14 @@ while (gr.next()) {&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-31 03:49:26</sys_created_on>
         <sys_id>e46dfb29c33a5a104f6efc0ed40131c5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-31 03:49:26</sys_updated_on>
+        <sys_updated_on>2024-12-31 11:08:05</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
 // ... code ...&#13;
 var task_num = inputs.task_num;&#13;
 var gr = new GlideRecord('x_846092_detail_su_detail');/*明細テーブル*/&#13;
-gr.addQuery('Number', task_num);&#13;
+gr.addQuery('number', task_num);&#13;
 gr.orderBy('sys_created_on');&#13;
 gr.query();&#13;
 let count = 0;    &#13;
@@ -1153,14 +1153,14 @@ while (gr.next()) {&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-31 03:49:26</sys_created_on>
         <sys_id>ac6dfb29c33a5a104f6efc0ed40131cc</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="detail subnum add">af19efadc3b65a104f6efc0ed4013116</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-31 03:49:26</sys_updated_on>
+        <sys_updated_on>2024-12-31 11:08:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

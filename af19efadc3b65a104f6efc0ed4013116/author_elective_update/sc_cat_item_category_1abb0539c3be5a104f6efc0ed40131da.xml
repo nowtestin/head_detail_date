@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="表形式_関連項目名task_num">93788df1c3be5a104f6efc0ed40131ca</sc_cat_item>
+        <sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-31 09:31:43</sys_created_on>
+        <sys_id>1abb0539c3be5a104f6efc0ed40131da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.表形式_関連項目名task_num</sys_name>
+        <sys_package display_value="detail subnum add" source="x_846092_detail_su">af19efadc3b65a104f6efc0ed4013116</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="detail subnum add">af19efadc3b65a104f6efc0ed4013116</sys_scope>
+        <sys_update_name>sc_cat_item_category_1abb0539c3be5a104f6efc0ed40131da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-31 09:31:43</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="detail subnum add">af19efadc3b65a104f6efc0ed4013116</application>
+        <file_path/>
+        <instance_id>e5ad1ec01b198e5c77c7cb7b234bcbb6</instance_id>
+        <instance_name>dev250013</instance_name>
+        <name>sc_cat_item_category_1abb0539c3be5a104f6efc0ed40131da</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="表形式_関連項目名task_num">93788df1c3be5a104f6efc0ed40131ca</sc_cat_item><sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-31 09:31:43</sys_created_on><sys_id>1abb0539c3be5a104f6efc0ed40131da</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Can We Help You?.表形式_関連項目名task_num</sys_name><sys_package display_value="detail subnum add" source="x_846092_detail_su">af19efadc3b65a104f6efc0ed4013116</sys_package><sys_policy/><sys_scope display_value="detail subnum add">af19efadc3b65a104f6efc0ed4013116</sys_scope><sys_update_name>sc_cat_item_category_1abb0539c3be5a104f6efc0ed40131da</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-31 09:31:43</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-1320969096</payload_hash>
+        <record_name>Can We Help You?.表形式_関連項目名task_num</record_name>
+        <reverted_from/>
+        <source>9be32871c37a5a104f6efc0ed4013197</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-31 09:31:43</sys_created_on>
+        <sys_id>1abb0539c3be5a104f6efc0ed40131de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1941c0e8ef40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-31 09:31:43</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>1ebb0539e6be5a107cd9553873f2e6dd</update_guid>
+        <update_guid_history>1ebb0539e6be5a107cd9553873f2e6dd:-1320969096</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Can We Help You?.表形式_関連項目名task_num">d0125971c3fe5a104f6efc0ed4013152</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-31 09:59:26</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>9103f9f21d62457c92f4e2fae5d53590</sys_id>
+        <sys_metadata>1abb0539c3be5a104f6efc0ed40131da</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.表形式_関連項目名task_num</sys_name>
+        <sys_package display_value="detail subnum add" source="x_846092_detail_su">af19efadc3b65a104f6efc0ed4013116</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="detail subnum add">af19efadc3b65a104f6efc0ed4013116</sys_scope>
+        <sys_scope_delete display_value="">3c9e29e5a5b24a1d9713071759b81371</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_1abb0539c3be5a104f6efc0ed40131da</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_1abb0539c3be5a104f6efc0ed40131da">1abb0539c3be5a104f6efc0ed40131de</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-31 09:59:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

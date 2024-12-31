@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_846092_detail_su_detail">x_846092_detail_su_detail</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix/>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-31 02:37:09</sys_created_on>
+        <sys_id>a0acabe1c3f65a104f6efc0ed4013164</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="detail subnum add" source="x_846092_detail_su">af19efadc3b65a104f6efc0ed4013116</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="detail subnum add">af19efadc3b65a104f6efc0ed4013116</sys_scope>
+        <sys_update_name>sys_number_a0acabe1c3f65a104f6efc0ed4013164</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-31 02:37:09</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="detail subnum add">af19efadc3b65a104f6efc0ed4013116</application>
+        <file_path/>
+        <instance_id>e5ad1ec01b198e5c77c7cb7b234bcbb6</instance_id>
+        <instance_name>dev250013</instance_name>
+        <name>sys_number_a0acabe1c3f65a104f6efc0ed4013164</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_846092_detail_su_detail">x_846092_detail_su_detail</category><maximum_digits>7</maximum_digits><number>1000</number><prefix/><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-31 02:37:09</sys_created_on><sys_id>a0acabe1c3f65a104f6efc0ed4013164</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="detail subnum add" source="x_846092_detail_su">af19efadc3b65a104f6efc0ed4013116</sys_package><sys_policy/><sys_scope display_value="detail subnum add">af19efadc3b65a104f6efc0ed4013116</sys_scope><sys_update_name>sys_number_a0acabe1c3f65a104f6efc0ed4013164</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-31 02:37:09</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>-350765980</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>6f19efadc3b65a104f6efc0ed401311b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-31 02:37:10</sys_created_on>
+        <sys_id>71dcafe1c3f65a104f6efc0ed4013128</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1941a93069b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-31 02:37:10</sys_updated_on>
+        <type>Number</type>
+        <update_guid>75dcafe1a7f65a10e9f730ac81e7c227</update_guid>
+        <update_guid_history>75dcafe1a7f65a10e9f730ac81e7c227:-350765980</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-31 08:20:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>2d25131ca0b74f58a89c45047470a310</sys_id>
+        <sys_metadata>a0acabe1c3f65a104f6efc0ed4013164</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="detail subnum add" source="x_846092_detail_su">af19efadc3b65a104f6efc0ed4013116</sys_package>
+        <sys_parent display_value="detail">b93ae721c3f65a104f6efc0ed4013175</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="detail subnum add">af19efadc3b65a104f6efc0ed4013116</sys_scope>
+        <sys_scope_delete display_value="">3c9e29e5a5b24a1d9713071759b81371</sys_scope_delete>
+        <sys_update_name>sys_number_a0acabe1c3f65a104f6efc0ed4013164</sys_update_name>
+        <sys_update_version display_value="sys_number_a0acabe1c3f65a104f6efc0ed4013164">71dcafe1c3f65a104f6efc0ed4013128</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-31 08:20:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
